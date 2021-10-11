@@ -15,9 +15,9 @@ body{
     
 
 }
-body.menuOpened{
+/* body.menuOpened{
     
-}
+} */
 :root{
     --Xpos:0;
     --Ypos:0;
