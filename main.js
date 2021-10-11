@@ -2,10 +2,10 @@ const cursor = document.getElementById('cursor');
 const RootStyles = document.documentElement.style;
 const cursorStyle = getComputedStyle(cursor)
 window.addEventListener('mousemove',(e)=>{
-    let x = e.clientX;
-    let y = e.clientY;
+    let x = e.pageX;
+    let y = e.pageY;
     if (x+45<window.innerWidth) RootStyles.setProperty('--Xpos',`${x-25}px`);
-    if(y+45<window.innerHeight) RootStyles.setProperty('--Ypos',`${y-25}px`);
+    if(y) RootStyles.setProperty('--Ypos',`${y-25}px`);
 })
     
 console.log(window.innerHeight);
@@ -32,6 +32,19 @@ darklight.addEventListener('click',(e)=>{
         e.target.classList.remove('fa-sun');
         RootStyles.setProperty('--bodybg','#333');
         RootStyles.setProperty('--bodytxt','#fff');
+
     }
-    
+    RootStyles.setProperty('--txtquit',`${RootStyles.getPropertyValue('--bodybg')}`);
 })
+
+
+let matchMediaMaxWith800 = window.matchMedia('(max-width:800px)');
+
+if(matchMediaMaxWith800){
+    menuToOpen.addEventListener('click',(e)=>{
+        if(e.target.tagName==='A'){
+            menuOpener.click();
+            e.target.click();
+        }
+    })
+}
