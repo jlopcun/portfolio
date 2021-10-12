@@ -43,8 +43,8 @@ let matchMediaMaxWith800 = window.matchMedia('(max-width:800px)');
 if(matchMediaMaxWith800){
     menuToOpen.addEventListener('click',(e)=>{
         if(e.target.tagName==='A'){
-            menuOpener.click();
-            e.target.click();
+            menuToOpen.classList.toggle('show');
+            
         }
     })
 }
