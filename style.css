@@ -168,17 +168,24 @@ p{
     margin-bottom:10rem;
 }
 .project-img{
-    width:max(40%,300px);
+    width:max(50%,350px);
+    max-width:100%;
     padding:10px;
 }
 .project-content{
     width:40%;
     text-align:justify;
 }
-.project:nth-child(2n+1){
-    flex-flow:row wrap-reverse
+.project-info{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow:row wrap;
 }
-
+.project:nth-of-type(2n+1)>.project-info{
+    flex-flow:row wrap-reverse;
+}
 
 
 
@@ -210,5 +217,6 @@ p{
     .menu{
         justify-content:flex-end;
     }
+   
    
 }
