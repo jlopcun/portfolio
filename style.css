@@ -21,7 +21,7 @@ body.menuOpened{
 :root{
     --Xpos:0;
     --Ypos:0;
-    --bodybg:#333;
+    --bodybg:#1E635F;
     --bodytxt:#fff;
     --txtquit:#333;
 }
@@ -48,7 +48,7 @@ p:hover~.cursor{
 .menu{
     width:100%;
     height:max(calc(100vh/20),75px);
-    background-color: #aaa;
+    background-color: #8BE8E1;
     display: flex;
     align-items: center;
     position:fixed;
@@ -65,7 +65,7 @@ p:hover~.cursor{
     position:absolute;
     top:0;
     width:100vw;
-    background-color: #aaa;
+    background-color: #8BE8E1;
     clip-path:circle(30px at 100% -10%);
     transition:clip-path .7s;
     z-index:-1;
@@ -78,7 +78,7 @@ p:hover~.cursor{
 }
 .menu__ul-li a{
     text-decoration: none;
-    color:#f0a;
+    color:#36B3AB;
     transition:color .3s;
     font-size:30px;
 }
@@ -92,7 +92,7 @@ p:hover~.cursor{
     margin:5px;
 }
 .menu__ul-li:hover{
-    background-color: #0af;
+    background-color: #3C6361;
 }
 .opener{
     margin-left:auto;
@@ -168,7 +168,7 @@ p{
     margin-bottom:10rem;
 }
 .project-img{
-    width:max(50%,350px);
+    width:max(45%,350px);
     max-width:100%;
     padding:10px;
 }

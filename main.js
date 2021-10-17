@@ -24,13 +24,13 @@ darklight.addEventListener('click',(e)=>{
     if(e.target.classList.contains('fa-moon')){
         e.target.classList.add('fa-sun');
         e.target.classList.remove('fa-moon');
-        RootStyles.setProperty('--bodybg','#fff');
+        RootStyles.setProperty('--bodybg','#44E3D8');
         RootStyles.setProperty('--bodytxt','#000');
     }
     else{
         e.target.classList.add('fa-moon'); 
         e.target.classList.remove('fa-sun');
-        RootStyles.setProperty('--bodybg','#333');
+        RootStyles.setProperty('--bodybg','#1E635F');
         RootStyles.setProperty('--bodytxt','#fff');
 
     }
