@@ -44,7 +44,7 @@ if(matchMediaMaxWith800){
     menuToOpen.addEventListener('click',(e)=>{
         if(e.target.tagName==='A'){
             menuToOpen.classList.toggle('show');
-            
+            document.body.classList.toggle('menuOpened');
         }
     })
 }

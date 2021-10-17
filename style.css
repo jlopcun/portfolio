@@ -15,9 +15,9 @@ body{
     
 
 }
-/* body.menuOpened{
-    
-} */
+body.menuOpened{
+    overflow:hidden;
+}
 :root{
     --Xpos:0;
     --Ypos:0;
@@ -186,6 +186,56 @@ p{
 .project:nth-of-type(2n+1)>.project-info{
     flex-flow:row wrap-reverse;
 }
+
+.abilities__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+    width:100%;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:max(calc(100%/3),310px);
+}
+.skill>p{
+    margin:20px;
+}
+.abilities{
+    margin-bottom:10rem;
+}
+.contact__content{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow:row wrap;
+    
+}
+.social{
+    font-size:3.5rem;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-flow:row nowrap;
+    padding:20px;
+    color:var(--bodytxt);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
