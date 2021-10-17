@@ -21,7 +21,7 @@ body.menuOpened{
 :root{
     --Xpos:0;
     --Ypos:0;
-    --bodybg:#1E635F;
+    --bodybg:#1e635f;
     --bodytxt:#a2f0e9;
     --txtquit:#333;
 }
@@ -129,7 +129,9 @@ p{
 }
 .page-title{
     margin-left:2rem;
+    font-size:3rem;
 }
+
 .jlop-img{
     width:max(30vw,20rem);
     height:max(30vw,20rem);
@@ -167,6 +169,10 @@ p{
     justify-content: center;
     margin-bottom:10rem;
 }
+.project-title{
+    font-size:1.5rem;
+    color:rgba();
+}
 .project-img{
     width:max(45%,350px);
     max-width:100%;
@@ -175,6 +181,7 @@ p{
 .project-content{
     width:45%;
     text-align:center;
+    font-size:1.3rem;
 }
 .project-info{
     width:100%;
