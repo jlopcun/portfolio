@@ -40,11 +40,12 @@ darklight.addEventListener('click',(e)=>{
 
 let matchMediaMaxWith800 = window.matchMedia('(max-width:800px)');
 
-if(matchMediaMaxWith800){
+if(matchMediaMaxWith800===true){
     menuToOpen.addEventListener('click',(e)=>{
         if(e.target.tagName==='A'){
             menuToOpen.classList.toggle('show');
             document.body.classList.toggle('menuOpened');
         }
+        console.log('match')
     })
 }
