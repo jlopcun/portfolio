@@ -38,9 +38,8 @@ darklight.addEventListener('click',(e)=>{
 })
 
 
-let matchMediaMaxWith800 = window.matchMedia('(max-width:800px)');
 
-if(matchMediaMaxWith800===true){
+if(window.innerWidth<800){
     menuToOpen.addEventListener('click',(e)=>{
         if(e.target.tagName==='A'){
             menuToOpen.classList.toggle('show');
