@@ -8,7 +8,7 @@ window.addEventListener('mousemove',(e)=>{
     if(y) RootStyles.setProperty('--Ypos',`${y-25}px`);
 })
     
-console.log(window.innerHeight);
+
 
 
 let menuOpener = document.getElementById('menuOpener');
@@ -45,6 +45,6 @@ if(window.innerWidth<800){
             menuToOpen.classList.toggle('show');
             document.body.classList.toggle('menuOpened');
         }
-        console.log('match')
+       
     })
 }
