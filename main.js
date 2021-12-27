@@ -4,8 +4,8 @@ const cursorStyle = getComputedStyle(cursor)
 window.addEventListener('mousemove',(e)=>{
     let x = e.pageX;
     let y = e.pageY;
-    if (x+45<window.innerWidth) RootStyles.setProperty('--Xpos',`${x-25}px`);
-    if(y) RootStyles.setProperty('--Ypos',`${y-25}px`);
+    if (x+45<window.innerWidth) RootStyles.setProperty('--Xpos',`${x-20}px`);
+    if(y) RootStyles.setProperty('--Ypos',`${y-20}px`);
 })
     
 
