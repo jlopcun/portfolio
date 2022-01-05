@@ -1,3 +1,6 @@
+import {slider} from './slider.js'
+
+
 const cursor = document.getElementById('cursor');
 const RootStyles = document.documentElement.style;
 const cursorStyle = getComputedStyle(cursor)
@@ -48,3 +51,5 @@ if(window.innerWidth<800){
        
     })
 }
+
+slider();

@@ -40,56 +40,25 @@
         <a id="projects"></a>
         <article class="projectSection">
             <h2 class="page-title">Projects</h2>
-            <div class="allProjects">
-                <section class="project">
-                    <h3 class="project-title">Basic Calculator</h3>
-                    <div class="project-info">
-                        <p class="project-content">A basic calculator made by me,you can sum,subtract,multiply and divide,also you can use more advanced functions like square roots or square numbers.<br><a href="https://jlop-calculator.netlify.app" target="_blank">View page</a><br><a href="https://github.com/jlopcun/simple-calculator" target="_blank">View code</a></p>
-                        <img class="project-img" src="images/jlop-calculator.png" alt="calculator preview">
-                    </div>
-                </section>
-                <section class="project">
-                    <h3 class="project-title">Guess the color game</h3>
-                    <div class="project-info">
-                        <img class="project-img" src="images/jlop-guessthecolor.png" alt="guess the color preview">
-                        <p class="project-content">A simple guess the color game,if you guess the color by an rgb value showed on the top of the page,you win the game.You can select between two dificulty levels,easy(only 3 options) or hard (6 options)<br><a href="https://guessthecolorjlc.netlify.app" target="_blank">View page</a><br><a href="https://github.com/jlopcun/guess_the_color_game" target="_blank">View code</a></p>
-                    </div>
-                </section>
-                <section class="project">
-                    <h3 class="project-title">Tic tac toe</h3>
-                    <div class="project-info">
-                        <p class="project-content">The clasic tic tac toe game,the game you used to play with your friends in the school but in a web page, the player who matches 3 in a row,wins<br><a href="https://jlopcun-tic-tac-toe.netlify.app/" target="_blank">View page</a><br><a href="https://github.com/jlopcun/tres-en-ralla" target="_blank">View code</a></p>
-                        <img class="project-img" src="images/jlop-tic-tac-toe.png" alt="tic tac toe preview">
-                    </div>
-                </section>
-                <section class="project">
-                    <h3 class="project-title">Simple landing page</h3>
-                    <div class="project-info">
-                        <img class="project-img" src="images/jlop-landingpage.png" alt="landing page preview">
-                        <p class="project-content">This simple landing page is a project that I made as a frontend mentor project,so the design is not mine,but I copy it perfectly on this page.<br><a href="https://jlop-calculator.netlify.app" target="_blank">View page</a><br><a href="https://github.com/jlopcun/simple-calculator" target="_blank">View code</a></p>
-                    </div>
-                </section>
-                <section class="project">
-                    <h3 class="project-title">Task list</h3>
-                    <div class="project-info">
-                        <p class="project-content">With this simple task list you can take notes or the day-to-day tasks,this web has the functionality of save your notes also if you close it and later you open it again<br><a href="https://task-list-jlop.netlify.app" target="_blank">View page</a><br><a href="https://github.com/jlopcun/task-list" target="_blank">View code</a></p>
-                    <img class="project-img" src="images/jlop-task-list.png" alt="task list preview">
-                    </div>
-                </section>
-                <section class="project">
-                    <h3 class="project-title">Hanged man game</h3>
-                    <div class="project-info">
-                        <img class="project-img" src="images/hanged-man-jlop.png" alt="task list preview">
-                        <p class="project-content">the classic hanged man game , you have 6 tries to find out wich word is hidden behind the low bars<br><a href="https://jlop-ahorc.netlify.app/" target="_blank">View page</a><br><a href="https://github.com/jlopcun/ahorcado" target="_blank">View code</a></p>
-                    </div>
-                </section>
-                <section class="project">
-                    <h3 class="project-title">Weather app</h3>
-                    <div class="project-info">
-                        <p class="project-content">A simple weather app , you can enter a city/coutry and get how the weather is like there<br><a href="https://weatherjlopcun.netlify.app" target="_blank">View page</a><br><a href="https://github.com/jlopcun/Weather-app" target="_blank">View code</a></p>
-                        <img class="project-img" src="images/weatherApp.png" alt="task list preview">
-                    </div>
-                </section>
+            <div class="projectViewer" id="projectViewer">
+                <p class="title"></p>
+                <img src="images/shyguymasc.png" alt="project-img" class="img project-img">
+                <p class="description"></p>
+                <a href="https://github.com/jlopcun" target="blank_" class="code-enlc">view code</a>
+                <a href="https://github.com/jlopcun" target="blank_" class="page-enlc">view page</a>
+                <div class="sliders" id="slideButton">
+                    <div class="slideButton back fas fa-arrow-left"></div>
+                    <div class="slideButton front fas fa-arrow-right"></div>
+                </div>
+                <div class="points" id="points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
             </div>
         </article>
         <a id="abilities"></a>
@@ -145,6 +114,6 @@
     <div class="cursor" id="cursor"></div>
     
 
-    <script src="main.js"></script>
+    <script src="main.js" type="module"></script>
 </body>
 </html>

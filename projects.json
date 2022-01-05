@@ -1,0 +1,54 @@
+{
+    "projects":[
+        {
+            "title":"Basic calculator",
+            "description":"A basic calculator made by me,you can sum,subtract,multiply and divide,also you can use more advanced functions like square roots or square numbers.",
+            "code-enlc":"https://github.com/jlopcun/simple-calculator",
+            "page-enlc":"https://jlop-calculator.netlify.app",
+            "img":"images/jlop-calculator.png"
+            
+        },
+        {
+            "title":"Guess the color game",
+            "description":"A simple guess the color game,if you guess the color by an rgb value showed on the top of the page,you win the game.You can select between two dificulty levels,easy(only 3 options) or hard (6 options)",
+            "code-enlc":"https://github.com/jlopcun/guess_the_color_game",
+            "page-enlc":"https://guessthecolorjlc.netlify.app",
+            "img":"images/jlop-guessthecolor.png"
+        },
+        {
+            "title":"Tic Tac Toe",
+            "description":"The clasic tic tac toe game,the game you used to play with your friends in the school but in a web page, the player who matches 3 in a row,wins",
+            "code-enlc":"https://github.com/jlopcun/tres-en-ralla",
+            "page-enlc":"https://jlopcun-tic-tac-toe.netlify.app/",
+            "img":"images/jlop-tic-tac-toe.png"
+        },
+        {
+            "title":"Simple landing page",
+            "description":"This simple landing page is a project that I made as a frontend mentor project,so the design is not mine,but I copy it perfectly on this page.",
+            "code-enlc":"https://github.com/jlopcun/clipboard-landing-page-fm",
+            "page-enlc":"https://jlop-cun-landingpage-fm.netlify.app/",
+            "img":"images/jlop-landingpage.png"
+        },
+        {
+            "title":"Task list",
+            "description":"With this simple task list you can take notes or the day-to-day tasks,this web has the functionality of save your notes also if you close it and later you open it again",
+            "code-enlc":"https://github.com/jlopcun/task-list",
+            "page-enlc":"https://task-list-jlop.netlify.app",
+            "img":"images/jlop-task-list.png"
+        },
+        {
+            "title":"hanged man game",
+            "description":"the classic hanged man game , you have 6 tries to find out wich word is hidden behind the low bars",
+            "code-enlc":"https://github.com/jlopcun/ahorcado",
+            "page-enlc":"https://jlop-ahorc.netlify.app/",
+            "img":"images/hanged-man-jlop.png"
+        },
+        {
+            "title":"weather app",
+            "description":"A simple weather app , you can enter a city/coutry and get how the weather is like there",
+            "code-enlc":"https://github.com/jlopcun/Weather-app",
+            "page-enlc":"https://weatherjlopcun.netlify.app",
+            "img":"images/jlopWeather.png"
+        }
+    ]
+}

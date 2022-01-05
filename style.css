@@ -57,7 +57,7 @@ p:hover~.cursor{
     align-items: center;
     position:fixed;
     top:0;
-    
+    z-index:10;
 }
 .menu__ul{
     margin:0;
@@ -165,37 +165,64 @@ p:hover~.cursor{
     justify-content: center;
     margin-bottom:20rem;
 }
-.project{
-    max-width:100%;
+.projectViewer{
+    position:relative;
     display:flex;
-    flex-flow:row wrap;
-    justify-content: center;
-    margin-bottom:10rem;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column wrap;
 }
-.project-title{
-    font-size:1.5rem;
+.description{
+    margin:0 1rem;
+    text-align:center;
+}
+.title{
+    margin:1rem;
+}
+.sliders{
+    position:absolute;
+    top:50%;
+    width:100%;
+    height:20%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-flow:row wrap;
+    transform:translateY(-80%);
+}
+.slideButton{
+    padding:.5rem;
+    color:var(--bodytxt);
+    box-shadow:1px 1px 10px rgba(0 0 0 /.5);
+    border-radius:50%;
+    background-color:rgba(255 255 255 /.5);
+    font-size:2rem;
+}
+.front{
+    margin-left:70%;
 }
 .project-img{
     width:max(45%,350px);
     max-width:100%;
     padding:10px;
 }
-.project-content{
-    width:45%;
-    text-align:center;
-    font-size:1.3rem;
-}
-.project-info{
-    width:100%;
+.points{
+    width:20%;
     display:flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:space-evenly;
+    align-items:center;
     flex-flow:row wrap;
+    margin-top:1rem;
 }
-.project:nth-of-type(2n+1)>.project-info{
-    flex-flow:row wrap-reverse;
+.point{
+    width:5px;
+    height:5px;
+    background-color: #fff;
+    border-radius:50%;
 }
-
+.point-active{
+    background-color: #0af;
+}
 .abilities__content{
     display: flex;
     justify-content: center;
